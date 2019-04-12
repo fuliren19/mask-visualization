@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[ ]:
+
 
 import os
 import os.path as osp
@@ -13,12 +13,6 @@ import cv2
 
 
 
-"""
-给出输入json文件路径
-"""
-#json_file= './data_1/second' 
-
-#listName = []
 
 def out_class(file_path, save_path, image_path=file_path):
     list1 = os.listdir(file_path) # 返回指定的文件夹包含的文件的名字列表
@@ -131,10 +125,7 @@ if __name__ == '__main__':
     save_path = '/home/Data/lirenfu/out_mask'
     image_path = '/home/Data/lirenfu/tangshan20190404'
     out_class(file_path, save_path, image_path)
-    
 
-
-# In[ ]:
 
 
 
