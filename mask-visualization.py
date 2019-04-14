@@ -73,9 +73,7 @@ def out_class(file_path, save_path, image_path=file_path):
                 y_min = int(min(y))
                 y_max = int(max(y))
                 #print(x_min,x_max,y_min, y_max)
-                """
-                给出与json对应的，输入jpg文件路径
-                """
+                
                 img = cv2.imread(jpg_path)
                 img = img[y_min:y_max, x_min:x_max]
                 """
