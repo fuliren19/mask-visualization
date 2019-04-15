@@ -76,9 +76,7 @@ def out_class(file_path, save_path, image_path=file_path):
                 
                 img = cv2.imread(jpg_path)
                 img = img[y_min:y_max, x_min:x_max]
-                """
-                给出输出文件路径
-                """
+                
                 outpath = os.path.join(save_path, '%s' % data['shapes'][j]['label'])
                 #print(outpath)
                 exit = os.path.exists(outpath)
