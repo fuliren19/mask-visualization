@@ -85,9 +85,7 @@ def out_class(file_path, save_path, image_path=file_path):
 
                 if exit:
                     def check_meta(file_name):
-                        """
-                        给出输出文件路径
-                        """
+                 
 
                         file_name_new=file_name
                         if os.path.isfile(file_name):
