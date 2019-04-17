@@ -104,9 +104,6 @@ def out_class(file_path, save_path, image_path=file_path):
 
                     cv2.imwrite("%s"% return_name, img)
                 else:
-                    """
-                    给出输出文件路径
-                    """
                     os.makedirs(outpath)
                     file_name  = os.path.join(outpath, '%s' % jpg_alln)
                     cv2.imwrite((file_name), img)
