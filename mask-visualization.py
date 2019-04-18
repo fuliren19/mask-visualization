@@ -97,7 +97,6 @@ def out_class(file_path, save_path, image_path=file_path):
                             file_name_new=check_meta(file_name)
                         return file_name_new
                     file_name  = os.path.join(outpath, '%s' % jpg_alln)
-                    #file_name = ("./data_1/%s/%s.jpg" % (data['shapes'][j]['label'],listName[i]))
                     return_name=check_meta(file_name)
 
                     #print(return_name)
