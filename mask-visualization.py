@@ -20,7 +20,6 @@ def out_class(file_path, save_path, image_path=file_path):
     #jpg_list = []
     namelist = []
     for name in list1:
-        #print(name)
         index = name.rfind('.')
         first_name = name[:index]
         tail_name = name[index:]
