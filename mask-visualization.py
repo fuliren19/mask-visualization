@@ -37,7 +37,6 @@ def out_class(file_path, save_path, image_path=file_path):
 
 
     n=[0]
-    print("当前正在处理的标签及文件：")
     for i in range(0, len(json_list)):
         json_path = os.path.join(file_path, json_list[i]) # 拼接出每个json文件的完整路径
         filename = os.path.basename(json_path)
